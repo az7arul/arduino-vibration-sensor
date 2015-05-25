@@ -2,7 +2,11 @@
 
 upload the vibration.ino to arduino
 
-## Run `npm install`
+## Install Packages
 
-## Run the nodejs program to listen to arduino on serialport ( change /dev/cu.usbmodem1411 to appropriate device )
+Run `npm install`
+
+## Start node ap
+
+Run `node vibration.js`  to listen to arduino on serialport ( change /dev/cu.usbmodem1411 to appropriate device )
 
