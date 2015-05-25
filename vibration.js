@@ -23,11 +23,10 @@ sp.open(function (error) {
   } else {
     console.log('open');
     sp.on('data', function(data) {
-       var number = parseInt(data.replace('data received: ', ''),10);
-	
-	   if (number > 500) {
-		alert();
-       }	
+      var number = parseInt(data.replace('data received: ', ''),10);
+	    if (number > 500) {
+		    alert();
+      }	
     });
   }
 });
