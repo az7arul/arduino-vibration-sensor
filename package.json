@@ -1,0 +1,17 @@
+{
+  "name": "vibration-detector",
+  "version": "1.0.0",
+  "description": "Raise alert when vibration is detected using the sensor",
+  "main": "vibration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "say": "*",
+    "lodash": "*",
+    "serialport": "*"
+  },
+  "author": "",
+  "license": "MIT"
+}
